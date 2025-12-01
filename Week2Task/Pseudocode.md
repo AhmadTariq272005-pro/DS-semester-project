@@ -58,6 +58,7 @@ FUNCTION deleteLastWord()
     temp.next = NULL
     RETURN word
 END FUNCTION
+
 FUNCTION 04
 Edit Word At Position(newWord)
 Updates the word stored at specific node
@@ -72,6 +73,7 @@ FUNCTION editWordAtPosition(position, newWord)
     ENDFOR
     temp.word = newWord
 END FUNCTION
+
 FUNCTION 05
 Display Text Using Queue()
 Displays all words in FIFO order using Queue
