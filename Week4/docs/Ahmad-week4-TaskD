@@ -1,0 +1,3 @@
+My main responsibility was implementing the undo and redo functionality using stacks.  
+I learned how stack operations help reverse actions efficiently in real applications.  
+With extra time, I would improve input validation and make undo work for more operations.
