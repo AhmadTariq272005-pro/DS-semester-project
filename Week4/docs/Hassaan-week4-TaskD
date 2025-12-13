@@ -1,0 +1,3 @@
+I mostly worked on the linked list part of the project, including inserting, deleting, and editing words.  
+I learned how pointer management is important to avoid crashes and memory errors.  
+If I had one more week, I would add file handling so the text can be saved and loaded automatically.
