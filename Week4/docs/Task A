@@ -1,36 +1,36 @@
-# **Task A: Making the Data Structures Project Fully Stable**
+Task A: Making the Data Structures Project Fully Stable
 
 The project was tested and finalized to ensure that all major operations work correctly without crashes or logical errors. No new features were added during this phase.
 
-### **Add / Insert Operations**
+Add / Insert Operations
 
 * Words can be inserted normally using a linked list.
 * Words can also be inserted at a specific position.
 * Edge cases such as inserting at position 1 and inserting in an empty list were handled correctly.
 
-### **Delete / Remove Operations**
+Delete / Remove Operations
 
 * Deleting the last word works safely and updates pointers correctly.
 * Deleting a word at a specific position handles invalid positions without crashing.
 * Deleting the first word using queue-based logic works correctly.
 * Safe checks were added to avoid deletion from an empty list.
 
-### **Search / Find Operations**
+Search / Find Operations
 
 * Word searching is handled during replace operations.
 * If the word does not exist, the program displays a proper message instead of failing.
 
-### **Update Operations**
+Update Operations
 
 * Editing a word at a specific position works correctly.
 * Replacing words updates all matching occurrences in the linked list.
 
-### **Display / Traverse Operations**
+Display / Traverse Operations
 
 * Text is displayed correctly using queue-based FIFO traversal.
 * Empty text cases are handled properly and display meaningful messages.
 
-### **Stability Fixes Applied**
+Stability Fixes Applied
 
 * Prevented undo and redo operations from running on empty stacks.
 * Fixed invalid pointer access when positions are out of range.
