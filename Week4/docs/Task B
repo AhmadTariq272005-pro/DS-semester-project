@@ -1,0 +1,31 @@
+# **Task B: Code Cleanup and Modular Glow-Up**
+
+The code was cleaned and organized to improve readability, maintainability, and professionalism without changing its functionality.
+
+### **Code Readability Improvements**
+
+* Removed unused variables and unnecessary comments.
+* Used clear and meaningful function and variable names.
+* Added helpful comments to explain complex logic.
+
+### **Modularization**
+
+* Broke long sections of code into smaller helper functions.
+* Created separate functions for:
+
+  * Menu display
+  * Edit history display
+* This improved code structure and reduced repetition.
+
+### **Logic Cleanup**
+
+* Added proper validation for user inputs such as positions.
+* Ensured stacks and queues are used safely with empty checks.
+* Organized code into clear sections for linked list, stack, queue, and main logic.
+
+### **Overall Result**
+
+* The program is now clean, stable, and easy to understand.
+* The code follows good programming practices suitable for a final lab submission.
+* All required operations work correctly with improved structure and clarity.
+
