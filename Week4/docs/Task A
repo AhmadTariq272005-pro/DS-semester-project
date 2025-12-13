@@ -1,22 +1,31 @@
-TASK A: Project Stability Check 
+Task A: Making the Data Structures Project Fully Stable
+The project was tested and finalized to ensure that all major operations work correctly without crashes or logical errors. No new features were added during this phase.
 
-Your project already meets all functional requirements:
-Requirement	Status	How
-Add / Insert	✅	insertWord(), insertAtPosition()
-Delete / Remove	✅	deleteLastWord(), deleteAtPosition(), Queue delete
-Search / Find	✅	replaceWord() (search + update)
-Update	✅	editWordAtPosition()
-Display / Traverse	✅	Queue-based display
-Bugs Fixed / Stability Improvements
-1.	Undo stack mismatch
-o	Earlier undo only deleted last word without validation
-o	Now safe handling when list is empty
-2.	Invalid position crash
-o	Added proper checks before pointer traversal
-3.	Redo stack cleanup
-o	Cleared redo stack on fresh insert
-4.	Empty list safety
-o	All delete/edit/display functions now guard against NULL
- No infinite loops
- No segmentation faults
- No pointer misuse
+Add / Insert Operations
+Words can be inserted normally using a linked list.
+Words can also be inserted at a specific position.
+Edge cases such as inserting at position 1 and inserting in an empty list were handled correctly.
+     
+Delete / Remove Operations
+Deleting the last word works safely and updates pointers correctly.
+Deleting a word at a specific position handles invalid positions without crashing.
+Deleting the first word using queue-based logic works correctly.
+Safe checks were added to avoid deletion from an empty list.
+
+Search / Find Operations
+Word searching is handled during replace operations.
+If the word does not exist, the program displays a proper message instead of failing.
+
+Update Operations
+Editing a word at a specific position works correctly.
+Replacing words updates all matching occurrences in the linked list.
+
+Display / Traverse Operations
+Text is displayed correctly using queue-based FIFO traversal.
+Empty text cases are handled properly and display meaningful messages.
+
+Stability Fixes Applied
+Prevented undo and redo operations from running on empty stacks.
+Fixed invalid pointer access when positions are out of range.
+Cleared redo stack after new insert operations to avoid incorrect redo behavior.
+Ensured no infinite loops or segmentation faults occur during execution.
