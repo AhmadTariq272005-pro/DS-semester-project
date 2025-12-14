@@ -1,18 +1,26 @@
-URGENT + IMPORTANT
+# **Task D: Eisenhower Matrix Planning**
 
-Complete DS code
-Upload test results
-Fix runtime errors
-IMPORTANT + NOT URGENT
+### Urgent + Important
 
-Improve GUI
-Add database
-Code optimization
-URGENT + NOT IMPORTANT
+* Implement core DS features
+* Fix crashes and logic errors
+* Push working code to GitHub
 
-Upload screenshots
-GitHub commits
-NOT URGENT + NOT IMPORTANT
+### Important + Not Urgent
 
-UI color themes
-Sound effects
+* Improve code readability
+* Add comments and modular functions
+* Prepare documentation
+
+### Urgent + Not Important
+
+* Upload screenshots
+* Take in-class activity photos
+
+### Not Urgent + Not Important
+
+* UI enhancements
+* Extra features beyond requirements
+
+Just tell me 👍
+
